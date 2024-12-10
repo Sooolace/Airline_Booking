@@ -1,0 +1,104 @@
+/* Apply styles to the container (left side) */
+.container1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: auto; /* Adjust the width to occupy half the space */
+    height: auto;
+    max-width: 50%;
+    margin-left: 2%; /* Adjust margin to create spacing */
+    position: center;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    float: left;
+}
+
+/* Apply styles to the tablecontainer (right side) */
+.tablecontainer1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: auto; /* Adjust the width for the right container */
+    height: 800px; /* Set a fixed height */
+    overflow-y: auto; /* Add a vertical scrollbar when content exceeds the height */
+    margin-left: 2%; /* Adjust margin to create spacing */
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    float: left;
+}
+
+/* Style for the form header (Add flights) */
+.body h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 24px;
+    margin-top: 0;
+    padding-top: 10px;
+    margin-left: 50px;
+}
+
+/* Apply styles to the input-container */
+.input-container {
+    margin-bottom: 20px;
+    width: 100%; /* Occupy the full width */
+}
+
+.input-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-container input[type="text"],
+.input-container input[type="number"],
+.input-container input[type="time"],
+.input-container input[type="date"],
+.input-container select {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+}
+
+.input-container input[type="submit"]{
+    margin-left: 45px; /* Centers the button vertically */
+}
+
+.input-container button {
+    padding: 10px 20px;
+    background-color: rgb(45, 129, 238);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Center align the buttons within the input-container */
+.input-container button {
+    display: block;
+    margin: 10px auto;
+}
+
+/* Add some margin to the bottom of the form for spacing */
+#flight-form {
+    margin-bottom: 20px;
+}
+
+/* Media query for screens with a maximum width of 768px or smaller */
+@media screen and (max-width: 768px) {
+    .container1, .tablecontainer1 {
+        width: 100%; /* Occupy the full width on small screens */
+        max-width: 100%;
+        margin-left: 0;
+        float: none; /* Don't float on small screens */
+    }
+}
+
+.h1{
+    margin-top: 10px;
+}

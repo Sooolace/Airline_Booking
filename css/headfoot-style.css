@@ -1,0 +1,61 @@
+
+body, header {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aliceblue;
+
+
+}
+
+/* Style the header element */
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #004869; 
+    color: #fff; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+/* Style the logo */
+.logo img {
+    max-height: 50px; /* Set a maximum height for the logo */
+}
+
+/* Style the navigation links */
+nav ul {
+    list-style-type: none; /* Remove list bullets */
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px; /* Add spacing between navigation items */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color for links */
+    font-feature-settings: 'liga' 0;
+    font-family: 'Gibson-SemiBold','Gibson',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+a.signin {
+    border: 1px solid #ffffff; /* You can change the color and width as needed */
+    padding: 15px 15px; /* Add padding to make the border more visible */
+    border-radius: 5px; /* Add rounded corners to the border */
+}
+

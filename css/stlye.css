@@ -1,0 +1,75 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 400px;
+}
+
+.fcontainer {
+    width: 1000px;
+    height: 300px;
+    margin-top: -30px;  
+    margin-left: 50px;
+    padding: 20px 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+    left: -50px; 
+    top: 10px; 
+}
+
+.logo{
+
+    width: 100%;
+    height: auto;
+
+}
+
+.container1 {
+    width: 1000px;
+    height: 800px;
+    overflow-y: auto;
+    margin-top: 30px;  
+    margin-left: 50px;
+    padding: 20px 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+    left: -50px; 
+    top: 10px; 
+}
+
+.from-to input[type="text"],
+.from-to input[type="number"],
+.from-to input[type="time"],
+.from-to input[type="date"],
+.from-to select {
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+}
+
+.pass_form_container{
+    height: 50px;
+}
+    /* Define styles for different classes */
+    .economy {
+        display: none;
+    }
+
+    .business {
+        display: none;
+    }
+
+    .selected {
+        display: block;
+    }
+
+    h3 {
+        border: #b1a4a4;
+    }

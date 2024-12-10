@@ -1,0 +1,12 @@
+login details
+
+---user-----
+username: user
+password: user
+
+---admin----
+username: admin
+password: admin
+
+
+database name @phpmyadmin: airline_booking_system

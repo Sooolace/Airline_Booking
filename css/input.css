@@ -1,0 +1,43 @@
+.input-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+.input-container .from-to input[type="text"],
+.input-container .from-to input[type="number"],
+.input-container .from-to input[type="date"],
+.input-container .return input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+}
+
+.input-container .from-to input[type="text"],
+.input-container .from-to input[type="date"],
+.input-container .return input[type="date"] {
+    width: 250px; /* Set the same width for these inputs */
+}
+
+.input-container input[type="text"]:focus,
+.input-container input[type="date"]:focus,
+.input-container input[type="number"]:focus {
+    background-color: #f0f0f0;
+}
+
+.input-container input[type="submit"] {
+    padding: 10px;
+    background-color: rgb(45, 129, 238);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ffffff;
+    width: 90px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: relative;
+    margin-top: 30px; /* Apply margin to align with number input */
+}
